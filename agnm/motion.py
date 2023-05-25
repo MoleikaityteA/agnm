@@ -86,6 +86,6 @@ def displacement(t, vf, vi):
     :param t: time (s)
     :param vf: final velocity (m/s)
     :param vi: initial velocity (m/s)
-    :return:
+    :return: displacement value
     """
     return 0.5 * (vi + vf) * t
